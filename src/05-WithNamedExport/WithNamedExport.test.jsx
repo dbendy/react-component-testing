@@ -13,4 +13,6 @@ describe('ComponentWithNamedExport', () => {
     const tree = renderer.create(<ComponentWithNamedExport show />).toJSON();
     expect(tree).toMatchSnapshot();
   });
+
+  
 });
