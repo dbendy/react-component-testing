@@ -1,8 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`ComponentWithProp matches snapshot 1`] = `
-<h1>
-  Here is the message: 
-  Jest is awesome
-</h1>
-`;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { LibraryButton, LibraryForm } from './LibComponents';
+import { LibraryButton, LibraryForm } from '../LibComponents';
 
 const ComponentWithNamedExport = () => (
   <div>

@@ -4,7 +4,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import ComponentWithDependency from './WithDependency';
 
-jest.mock('./LibComponents', () => 'LibraryButton');
+jest.mock('../LibComponents', () => 'LibraryButton');
 
 describe('ComponentWithDependency', () => {
   it('matches snapshot', () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 // eslint-disable-next-line
-import LibraryButton from './LibComponents';
+import LibraryButton from '../LibComponents';
 
 const ComponentWithDependency = () => (
   <div>

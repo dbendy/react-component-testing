@@ -3,7 +3,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import ComponentWithNamedExport from './WithNamedExport';
 
-jest.mock('./LibComponents', () => ({
+jest.mock('../LibComponents', () => ({
   LibraryButton: 'LibraryButton',
   LibraryForm: 'LibraryForm',
 }));
