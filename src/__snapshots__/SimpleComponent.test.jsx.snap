@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimpleComponent matches snapshot 1`] = `
+<h1>
+  This is the simple component!
+</h1>
+`;

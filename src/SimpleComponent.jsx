@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default () => (
-  <div>
-    This is the foo component!
-  </div>
+  <h1>
+    This is the simple component!
+  </h1>
 );
