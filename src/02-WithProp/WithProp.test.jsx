@@ -5,7 +5,7 @@ import ComponentWithProp from './WithProp';
 
 describe('ComponentWithProp', () => {
   it('matches snapshot', () => {
-    const tree = renderer.create(<ComponentWithProp msg="Jest is awesome" />).toJSON();
+    const tree = renderer.create(<ComponentWithProp msg={"Jest is awesome"} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

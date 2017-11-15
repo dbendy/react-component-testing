@@ -2,6 +2,6 @@ import React from 'react';
 
 export default () => (
   <h1>
-    This is the simple component!
+    This is simple component!
   </h1>
 );
