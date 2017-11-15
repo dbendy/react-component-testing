@@ -10,9 +10,7 @@ jest.mock('../LibComponents', () => ({
 
 describe('ComponentWithNamedExport', () => {
   it('matches snapshot', () => {
-    const tree = renderer.create(<ComponentWithNamedExport show />).toJSON();
+    const tree = renderer.create(<ComponentWithNamedExport />).toJSON();
     expect(tree).toMatchSnapshot();
   });
-
-  
 });
